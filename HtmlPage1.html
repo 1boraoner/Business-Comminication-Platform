@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="bootstrap/JS(update)/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrap/JS(update)/popper.min.js"></script>
+    <script src="bootstrap/JS(update)/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="/css/customstylesheet.css" type="text/css" />
+    <style class="cp-pen-styles">
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: #27ae60;
+            font-family: "proxima-nova", "Source Sans Pro", sans-serif;
+            font-size: 1em;
+            letter-spacing: 0.1px;
+            color: #32465a;
+            text-rendering: optimizeLegibility;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+    <div id="frame">
+        <div id="sidepanel">
+            <div id="profile">
+                <div>
+                    <p>Live Chat</p>
+                    <i class="fa fa-chevron-down expand-button" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div id="contacts">
+                <ul id="contact_list">
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div id="grup_name " class="contact-profile">
+                <img src="/images/live_chat.jpeg" width="30" height="30" />
+            </div>
+            <div class="messages">
+                <ul id="mess_chat">
+                </ul>
+            </div>
+            <div class="message-input">
+                <div>
+                    <input id="Text2" type="text" placeholder="Write your message..." />
+                    <i class="fa fa-paperclip attachment" aria-hidden="true"></i>
+                    <button id="button2" type="button" value="Send" class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    </body>
+</html>
